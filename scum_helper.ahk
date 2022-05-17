@@ -29,9 +29,14 @@ doubleClick() {
 }
 
 XButton2::m
+
 ^d::doubleClick()
+^LButton::doubleClick()
+
 ^b::markPosition()
 !RButton::markPosition()
+
 !LButton::moveItem()
 ^f::moveItem()
+
 ^q::ExitApp
